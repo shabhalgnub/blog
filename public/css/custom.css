@@ -1,0 +1,74 @@
+body{
+    direction: rtl;
+}
+.header img {
+    float: right;
+    width: 150px;
+    height: 55px;
+    /* background: #f7f7f1; */
+  }
+body{
+    font-family: myFirstFont;
+}
+@font-face {
+     font-family: myFirstFont;
+    src: url('JF-Flat-regular.ttf');
+}
+
+.jumbotron{
+    background-color:#0b0049;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 95%;
+    background-color: #000000;
+    color:#fff;
+    text-align: center;
+}
+
+.caption{
+    color:rgb(46, 60, 255);
+}
+
+.caption strong{
+    color: #090929;
+}
+
+.carousel{
+    width:100%;
+    height: 100%;
+
+}
+.carousel img{
+    width: 100%;
+}
+
+.card{
+    background-color: transparent;
+}
+.thumbnail{
+    height:150px;
+}
+
+.carousel-indicators img{
+    border: 1px solid #fff;
+    width:100px;
+    height:100px;
+}
+
+.comment-container{
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    /* border: 1px solid #fff; */
+}
+
+@media (min-width: 768px) {
+    .navbar-left{
+    position: absolute;
+    left: 5%;
+  }
+}
